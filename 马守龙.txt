@@ -1,0 +1,36 @@
+1.pwd
+
+2.ls  >1.txt
+3.cd ./app/
+
+4.mkdir css js
+
+5.cd css/
+  touch 1.css
+  cd ../js
+  touch 1.js
+
+6.vi 1.js
+  按i或者a进入编辑模式
+  编写内容
+  按Esc退出编辑模式
+  :wq   保存并退出	
+
+7.cd .
+
+8. git config --global user.name test
+   git config --global user.email test1@qq.com
+ 
+9.git init
+
+10.git add *
+
+11.git status
+
+12.git commit -m 第一次提交
+
+13.touch 1.html
+   git add 1.html
+   git commit -m  第二次提交
+
+14.git log
